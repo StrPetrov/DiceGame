@@ -1,0 +1,56 @@
+@keyframes three {
+    0% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes two {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    51% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes one {
+    0% {
+        opacity: 0;
+    }
+    66.66% {
+        opacity: 0;
+    }
+    67% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes zero {
+    0% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0;
+    }
+    76% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

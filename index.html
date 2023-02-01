@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/keyframes.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="main_container_form_1">
+            <form action="#" class="form_player_1">
+                <label for="player1">Player 1</label><br>
+                <input type="text" name="player1" id="player1" placeholder="Enter your name..." autofocus>
+                <input type="submit" value="Confirm" class="confirm1">
+            </form>
+        </div>
+        <div class="main_container_form_2">
+            <form action="#" class="form_player_2">
+                <label for="player2">Player 2</label><br>
+                <input type="text" name="player2" id="player2" placeholder="Enter your name..." autofocus>
+                <input type="submit" value="Confirm" class="confirm2">
+            </form>
+        </div>
+        <div class="main_container_countdown three">3</div>
+        <div class="main_container_countdown two">2</div>
+        <div class="main_container_countdown one">1</div>
+        <div class="main_container_countdown zero">0</div>
+        <div class="game_interface_main">
+            <div class="game_interface_left">
+                <div class="game_interface_left_current_playing"></div>
+                <img src="images/dice-start.png" alt="img" class="game_interface_image_left">
+                <div class="game_interface_player_1">
+                    <p class="game_interface_player_1_text">Player 1: <span class="toRender1"></span></p>
+                </div>
+                <table class="game_interface_left_results">
+                    <tr>
+                        <th>Current score</th>
+                        <td class="toRenderScore1">0</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <td class="toRenderTotal1">0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="game_interface_right">
+                <div class="game_interface_right_current_playing"></div>
+                <img src="images/dice-start.png" alt="img" class="game_interface_image_right">
+                <div class="game_interface_player_2">
+                    <p class="game_interface_player_2_text">Player 2: <span class="toRender2"></span></p>
+                </div>
+                <table class="game_interface_right_results">
+                    <tr>
+                        <th>Current score</th>
+                        <td class="toRenderScore2">0</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <td class="toRenderTotal2">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="game_buttons">
+            <div class="button1">Roll the dice!</div>
+            <div class="button2">Switch!</div>
+        </div>
+        <div class="congrats1">
+            Player 1 has won!
+            <div class="refresh">Click here to play again!</div>
+        </div>
+        <div class="congrats2">
+            Player 2 has won!
+            <div class="refresh">Click here to play again!</div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
+    <script src="js/refresh.js"></script>
+</body>
+</html>
