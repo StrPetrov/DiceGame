@@ -45,35 +45,40 @@ function rollTheDice() {
                 }
                 case 2: {
                     imgLeft.setAttribute('src', 'images/2.png');
-                    scoreLeft.innerHTML = randomNumLeft;
+                    scoreCountLeft += randomNumLeft;
+                    scoreLeft.innerHTML = scoreCountLeft;
                     totalCountLeft += randomNumLeft;
                     totalLeft.innerHTML = totalCountLeft;
                     break;
                 }
                 case 3: {
                     imgLeft.setAttribute('src', 'images/3.png');
-                    scoreLeft.innerHTML = randomNumLeft;
+                    scoreCountLeft += randomNumLeft;
+                    scoreLeft.innerHTML = scoreCountLeft;
                     totalCountLeft += randomNumLeft;
                     totalLeft.innerHTML = totalCountLeft;
                     break;
                 }
                 case 4: {
                     imgLeft.setAttribute('src', 'images/4.png');
-                    scoreLeft.innerHTML = randomNumLeft;
+                    scoreCountLeft += randomNumLeft;
+                    scoreLeft.innerHTML = scoreCountLeft;
                     totalCountLeft += randomNumLeft;
                     totalLeft.innerHTML = totalCountLeft;
                     break;
                 }
                 case 5: {
                     imgLeft.setAttribute('src', 'images/5.png');
-                    scoreLeft.innerHTML = randomNumLeft;
+                    scoreCountLeft += randomNumLeft;
+                    scoreLeft.innerHTML = scoreCountLeft;
                     totalCountLeft += randomNumLeft;
                     totalLeft.innerHTML = totalCountLeft;
                     break;
                 }
                 case 6: {
                     imgLeft.setAttribute('src', 'images/6.png');
-                    scoreLeft.innerHTML = randomNumLeft;
+                    scoreCountLeft += randomNumLeft;
+                    scoreLeft.innerHTML = scoreCountLeft;
                     totalCountLeft += randomNumLeft;
                     totalLeft.innerHTML = totalCountLeft;
                     break;
@@ -107,35 +112,40 @@ function rollTheDice() {
                 }
                 case 2: {
                     imgRight.setAttribute('src', 'images/2.png');
-                    scoreRight.innerHTML = randomNumRight;
+                    scoreCountRight += randomNumRight
+                    scoreRight.innerHTML = scoreCountRight;
                     totalCountRight += randomNumRight;
                     totalRight.innerHTML = totalCountRight;
                     break;
                 }
                 case 3: {
                     imgRight.setAttribute('src', 'images/3.png');
-                    scoreRight.innerHTML = randomNumRight;
+                    scoreCountRight += randomNumRight
+                    scoreRight.innerHTML = scoreCountRight;
                     totalCountRight += randomNumRight;
                     totalRight.innerHTML = totalCountRight;
                     break;
                 }
                 case 4: {
                     imgRight.setAttribute('src', 'images/4.png');
-                    scoreRight.innerHTML = randomNumRight;
+                    scoreCountRight += randomNumRight
+                    scoreRight.innerHTML = scoreCountRight;
                     totalCountRight += randomNumRight;
                     totalRight.innerHTML = totalCountRight;
                     break;
                 }
                 case 5: {
                     imgRight.setAttribute('src', 'images/5.png');
-                    scoreRight.innerHTML = randomNumRight;
+                    scoreCountRight += randomNumRight
+                    scoreRight.innerHTML = scoreCountRight;
                     totalCountRight += randomNumRight;
                     totalRight.innerHTML = totalCountRight;
                     break;
                 }
                 case 6: {
                     imgRight.setAttribute('src', 'images/6.png');
-                    scoreRight.innerHTML = randomNumRight;
+                    scoreCountRight += randomNumRight
+                    scoreRight.innerHTML = scoreCountRight;
                     totalCountRight += randomNumRight;
                     totalRight.innerHTML = totalCountRight;
                     break;
